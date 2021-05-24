@@ -33,8 +33,8 @@ public class DefinitionsHeladera {
     public void after_test()
     {
         System.out.println("Termino la ejecucion");
-        driver.close();
-        driver.quit();
+       // driver.close();
+       // driver.quit();
     }
 
 
