@@ -20,6 +20,7 @@ public class PageInicialCelulares extends PageObject {
     public void buscarFallabella(String pagina) {
         txtBuscar.sendKeys( pagina )  ;
         txtBuscar.sendKeys(Keys.ENTER);
+
     }
 
     public void seleccionarFalabella() {
