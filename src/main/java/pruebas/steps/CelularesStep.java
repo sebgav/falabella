@@ -72,4 +72,10 @@ public class CelularesStep  {
         logger.info(String.format("Se valida el valor total %s Vs %s",Integer.parseInt(valorTotal),
                 (Integer.parseInt(mapPrecios.get("seguro"))+Integer.parseInt(mapPrecios.get("precio"))))  );
     }
+
+@Step
+    public void cerrarPopup() {
+        pageFalabella.cerrarPopup();
+    logger.info("Se Cerro Correctamente los popup iniciales");
+    }
 }

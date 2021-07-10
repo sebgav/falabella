@@ -116,4 +116,10 @@ return valoresFinal;
     public String getPrecioTotal() {
 return lblValorTotal.getText().replaceAll("\\$","").replaceAll("\\.","").trim();
     }
+
+    public void cerrarPopup() {
+        btnCerrarPublicidadIni.click();
+        btnCerrarPublicidadIni1.click();
+
+    }
 }
