@@ -78,4 +78,7 @@ public class CelularesStep  {
         pageFalabella.cerrarPopup();
     logger.info("Se Cerro Correctamente los popup iniciales");
     }
+
+    public void validarMensaje() {
+    }
 }

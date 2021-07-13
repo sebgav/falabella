@@ -24,6 +24,7 @@ public class CelularesStepDefinitions {
     @When("consulto un celular {string}")
     public void consultoUnCelular(String string) {
         celularesStep.cerrarPopup();
+        celularesStep.validarMensaje();
 
     }
 
