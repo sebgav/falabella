@@ -6,10 +6,12 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.locators.WaitForWebElements;
+import org.jruby.RubyProcess;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.HashMap;
 import java.util.List;
 
 import static net.thucydides.core.annotations.ClearCookiesPolicy.BeforeEachTest;
@@ -32,6 +34,4 @@ public class PageInicialCelulares extends PageObject {
         lblPageFalabella.click();
         getDriver().manage().deleteAllCookies();
     }
-
-
 }
